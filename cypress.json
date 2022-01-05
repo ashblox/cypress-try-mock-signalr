@@ -1,0 +1,13 @@
+{
+    "baseUrl": "http://google.com",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "testFiles": "**/*.feature",
+    "video": false,
+    "defaultCommandTimeout": 10000,
+    "includeShadowDom": true,
+    "env": {
+        "TAGS": "not @ignore"
+    }
+}
